@@ -21,6 +21,7 @@ class _HomeState extends State<Home> {
 
   void _onItemTapped(int index) {
     setState(() {
+      print('Clicked: ${index}');
       _selectedIndex = index;
     });
   }
