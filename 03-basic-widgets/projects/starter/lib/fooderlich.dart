@@ -9,21 +9,20 @@ class Fooderlich extends StatelessWidget {
   Widget build(BuildContext context) {
     final lightTheme = FooderlichTheme.light();
     final darkTheme = FooderlichTheme.dark();
-    // TODO: Apply Home widget
 
     return MaterialApp(
-      theme: lightTheme,
-      darkTheme: darkTheme,
+      theme: lightTheme, // light theme
+      darkTheme: darkTheme, // dark theme
       title: 'Fooderlich',
       home: Scaffold(
-        // TODO: Style the title
+        // Style the title
         appBar: AppBar(
           title: Text(
             'Fooderlich',
             style: darkTheme.textTheme.headline6,
           ),
         ),
-        // TODO: Style the body text
+        // Style the body text
         body: Center(
           child: Text(
             'Let\'s get cooking 👩🏻‍🍳',
